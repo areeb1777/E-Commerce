@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
   return (
     <div className="Footer w-full h-[340px] bg-[#2a254b] py-10 md:py-20 px-4 md:px-10">
       {/* Mobile View */}
-      <div className="md:hidden bg-[#2a254b]">
+      <div className="md:hidden bg-[#2a254b] cursor-pointer">
         <div className="relative w-[390px] h-[668px] bg-[#2a254b]">
           <div className="left-[205px] top-[40px] absolute flex-col justify-start items-start gap-3 inline-flex">
             <div className="text-white text-base font-normal font-[Arial]">
@@ -109,7 +109,7 @@ const Footer: React.FC = () => {
 
       {/* Desktop View */}
       <div className="hidden md:flex max-w-6xl mx-auto flex-col md:flex-row items-start gap-8">
-        <div className="flex-1 flex-col justify-start items-start gap-3">
+        <div className="flex-1 flex-col justify-start items-start gap-3 cursor-pointer">
           <div className="text-white text-base font-normal font-[Arial]">
             Menu
           </div>
