@@ -5,15 +5,7 @@ const HeroSection: React.FC = () => {
   return (
     <div className="w-full h-auto bg-white py-10 md:py-20 px-6 md:px-20">
       {/* Desktop View */}
-      <div className="hidden md:flex relative bg-[#2a254b] flex-row justify-start items-center md:h-[704px]">
-        <Image
-          className="absolute right-0 top-0"
-          src="/images/chair-right.png"
-          alt="Furniture"
-          layout="fill"
-          objectFit="contain"
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-        />
+      <div className="hidden md:flex relative bg-[#2a254b] flex-row justify-between items-center md:h-[704px]">
         <div className="relative z-10 w-1/2 px-20 py-20 flex flex-col justify-center">
           <div className="w-full max-w-[500px] text-white text-[32px] font-normal leading-[44.8px] font-['Arial'] mb-10">
             The furniture brand for the future, with timeless designs
@@ -32,6 +24,14 @@ const HeroSection: React.FC = () => {
               View collection
             </div>
           </div>
+        </div>
+        <div className="relative w-1/2 h-full">
+          <Image
+            src="/images/chair-right.png"
+            alt="Furniture"
+            layout="fill"
+            objectFit="contain"
+          />
         </div>
       </div>
 
