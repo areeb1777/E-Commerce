@@ -55,7 +55,7 @@ const Footer: React.FC = () => {
                 className="h-14 pl-8 pr-4 py-[17px] bg-white/20 text-white text-base font-normal font-[Arial] flex-grow"
                 placeholder="your@email.com"
               />
-              <div className="px-4 py-4 bg-white border justify-center items-center flex cursor-pointer">
+              <div className="px-1 py-3 bg-white border justify-center items-center flex cursor-pointer">
                 <div className="text-[#2a254b] text-base font-normal font-[Arial] leading-normal">Sign up</div>
               </div>
             </div>
