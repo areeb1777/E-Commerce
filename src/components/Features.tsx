@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 import Image from 'next/image';
 
 const FeaturesSection: React.FC = () => {
   return (
     <div className="w-full h-auto bg-white py-10 md:py-20 px-6 md:px-20">
-      <div className="text-[#2a254b] text-2xl font-normal leading-[33.60px] text-center mb-10">
+      <div className="text-[#2a254b] text-2xl font-normal leading-[33.60px] text-center mb-10 md:mb-6">
         What makes our brand different
       </div>
       <div className="hidden md:flex flex-col md:flex-row md:justify-between md:items-start gap-8 md:gap-6">
@@ -64,10 +64,7 @@ const FeaturesSection: React.FC = () => {
 
       {/* Mobile View */}
       <div className="md:hidden flex flex-col items-center gap-9 p-6">
-        <div className="w-[385px] h-auto bg-white flex flex-col justify-center items-start gap-9">
-          <div className="text-[#2a254b] text-xl font-normal leading-7 w-full text-center">
-            What makes our brand different
-          </div>
+        <div className="w-full max-w-[385px] h-auto bg-white flex flex-col justify-center items-start gap-9">
           <div className="flex flex-col gap-4">
             <div className="flex items-center">
               <Image src="/icons/delivery.svg" alt="Delivery Icon" width={24} height={24} />
