@@ -1,5 +1,6 @@
 import React from "react";
 import Image from 'next/image';
+import Link from "next/link";
 
 const products = [
   { id: 1, name: "Rustic Vase Set", price: "£155", image: "/images/rustic-vase.png" },
@@ -32,9 +33,11 @@ const ProductListing: React.FC = () => {
         ))}
       </div>
       <div className="flex justify-center mt-10">
+        <Link href='/products'>
         <div className="px-8 py-4 bg-[#f9f9f9] border text-[#2a254b] text-base   leading-normal cursor-pointer">
           View collection
         </div>
+        </Link>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import React from "react";
-import Image from 'next/image';
+import Image from "next/image";
+import Link from "next/link";
 
 const ListingsSection: React.FC = () => {
   return (
@@ -10,53 +11,71 @@ const ListingsSection: React.FC = () => {
       <div className="flex flex-wrap justify-center md:justify-between gap-8 md:flex-nowrap">
         <div className="flex flex-col items-start gap-4 w-[163px] md:w-[305px]">
           <div className="w-full h-auto flex justify-center">
-            <Image className="w-[163px] h-[201px] md:w-[305px] md:h-[375px]" src="/images/rustic-vase.png" alt="Rustic Vase Set" width={305} height={375} />
+            <Image
+              className="w-[163px] h-[201px] md:w-[305px] md:h-[375px]"
+              src="/images/rustic-vase.png"
+              alt="Rustic Vase Set"
+              width={305}
+              height={375}
+            />
           </div>
           <div className="text-[#2a254b] text-xl   leading-7">
             Rustic Vase Set
           </div>
-          <div className="text-[#2a254b] text-lg   leading-[27px]">
-            £155
-          </div>
+          <div className="text-[#2a254b] text-lg   leading-[27px]">£155</div>
         </div>
         <div className="flex flex-col items-start gap-4 w-[163px] md:w-[305px]">
           <div className="w-full h-auto flex justify-center">
-            <Image className="w-[163px] h-[201px] md:w-[305px] md:h-[375px]" src="/images/lucky-lamp.png" alt="The Lucy Lamp" width={305} height={375} />
+            <Image
+              className="w-[163px] h-[201px] md:w-[305px] md:h-[375px]"
+              src="/images/lucky-lamp.png"
+              alt="The Lucy Lamp"
+              width={305}
+              height={375}
+            />
           </div>
           <div className="text-[#2a254b] text-xl   leading-7">
             The Lucy Lamp
           </div>
-          <div className="text-[#2a254b] text-lg   leading-[27px]">
-            £399
-          </div>
+          <div className="text-[#2a254b] text-lg   leading-[27px]">£399</div>
         </div>
         <div className="flex flex-col items-start gap-4 w-[163px] md:w-[305px]">
           <div className="w-full h-auto flex justify-center">
-            <Image className="w-[163px] h-[201px] md:w-[305px] md:h-[375px]" src="/images/silky-vase.png" alt="The Silky Vase" width={305} height={375} />
+            <Image
+              className="w-[163px] h-[201px] md:w-[305px] md:h-[375px]"
+              src="/images/silky-vase.png"
+              alt="The Silky Vase"
+              width={305}
+              height={375}
+            />
           </div>
           <div className="text-[#2a254b] text-xl   leading-7">
             The Silky Vase
           </div>
-          <div className="text-[#2a254b] text-lg   leading-[27px]">
-            £125
-          </div>
+          <div className="text-[#2a254b] text-lg   leading-[27px]">£125</div>
         </div>
         <div className="flex flex-col items-start gap-4 w-[163px] md:w-[305px]">
           <div className="w-full h-auto flex justify-center">
-            <Image className="w-[163px] h-[201px] md:w-[305px] md:h-[375px]" src="/images/chair-right.png" alt="The Dandy chair" width={305} height={375} />
+            <Image
+              className="w-[163px] h-[201px] md:w-[305px] md:h-[375px]"
+              src="/images/chair-right.png"
+              alt="The Dandy chair"
+              width={305}
+              height={375}
+            />
           </div>
           <div className="text-[#2a254b] text-xl   leading-7">
             The Dandy chair
           </div>
-          <div className="text-[#2a254b] text-lg   leading-[27px]">
-            £250
-          </div>
+          <div className="text-[#2a254b] text-lg   leading-[27px]">£250</div>
         </div>
       </div>
       <div className="flex justify-center mt-10">
-        <div className="px-8 py-4 bg-[#f9f9f9] border text-[#2a254b] text-base   leading-normal cursor-pointer">
-          View collection
-        </div>
+        <Link href="/products">
+          <div className="px-8 py-4 bg-[#f9f9f9] border text-[#2a254b] text-base   leading-normal cursor-pointer">
+            View collection
+          </div>
+        </Link>
       </div>
     </div>
   );

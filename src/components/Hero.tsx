@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const HeroSection: React.FC = () => {
@@ -20,9 +21,11 @@ const HeroSection: React.FC = () => {
             using modern web technologies.
           </div>
           <div className="w-auto px-8 py-4 bg-[#f9f9f9]/20 justify-center items-center inline-flex cursor-pointer">
-            <div className="text-white text-base   leading-normal ">
-              View collection
-            </div>
+            <Link href="/products">
+              <div className="text-white text-base   leading-normal ">
+                View collection
+              </div>
+            </Link>
           </div>
         </div>
         <div className="relative w-1/2 h-full">
@@ -51,9 +54,11 @@ const HeroSection: React.FC = () => {
             using modern web technologies.
           </div>
           <div className="w-full max-w-[342px] px-8 py-4 bg-[#f9f9f9]/20 justify-center items-center inline-flex cursor-pointer">
-            <div className="text-white text-base   leading-normal ">
-              View collection
-            </div>
+            <Link href="/products">
+              <div className="text-white text-base   leading-normal ">
+                View collection
+              </div>
+            </Link>
           </div>
         </div>
       </div>
