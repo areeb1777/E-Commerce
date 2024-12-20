@@ -12,7 +12,7 @@ const TopNav: React.FC = () => {
   };
 
   return (
-    <div className="TopNav relative bg-white font-sans">
+    <div className="TopNav relative bg-white">
       {/* Desktop View */}
       <div className="hidden md:block w-full max-w-[1440px] mx-auto h-[132px] relative bg-white px-4 lg:px-8 xl:px-12">
         <div className="absolute left-[28px] top-[20px] cursor-pointer">
@@ -25,7 +25,7 @@ const TopNav: React.FC = () => {
         </div>
         <Link
           href="/home"
-          className="absolute left-[50%] transform -translate-x-1/2 top-[20px] text-[#211f2d] text-2xl font-normal font-['Arial']"
+          className="absolute left-[50%] transform -translate-x-1/2 top-[20px] text-[#211f2d] text-2xl"
         >
           Avion
         </Link>
@@ -44,22 +44,22 @@ const TopNav: React.FC = () => {
         </div>
         <div className="absolute left-[42px] top-[90px] flex gap-11 cursor-pointer">
           <Link href="/home">
-            <span className="text-[#716d8d] text-base font-normal font-['Arial']">
+            <span className="text-[#716d8d] text-base">
               Home
             </span>
           </Link>
           <Link href="/about">
-            <span className="text-[#716d8d] text-base font-normal font-['Arial']">
+            <span className="text-[#716d8d] text-base">
               About
             </span>
           </Link>
           <Link href="/cart">
-            <span className="text-[#716d8d] text-base font-normal font-['Arial']">
+            <span className="text-[#716d8d] text-base">
               Cart
             </span>
           </Link>
           <Link href="/products">
-            <span className="text-[#716d8d] text-base font-normal font-['Arial']">
+            <span className="text-[#716d8d] text-base">
               Products
             </span>
           </Link>
@@ -71,7 +71,7 @@ const TopNav: React.FC = () => {
       <div className="md:hidden flex w-full h-[69px] pl-6 pr-5 pt-5 pb-[19px] justify-between items-center">
         <Link
           href="/home"
-          className="Avion text-[#211f2d] text-2xl font-normal font-['Arial']"
+          className="Avion text-[#211f2d] text-2xl"
         >
           Avion
         </Link>
@@ -95,22 +95,22 @@ const TopNav: React.FC = () => {
       {isOpen && (
         <div className="md:hidden bg-white w-full absolute top-14 left-0 flex flex-col items-start p-4 shadow-lg z-10">
           <Link href="/home">
-            <span className="text-[#716d8d] text-base font-normal font-['Arial'] mb-2">
+            <span className="text-[#716d8d] text-base mb-2">
               Home
             </span>
           </Link>
           <Link href="/about">
-            <span className="text-[#716d8d] text-base font-normal font-['Arial'] mb-2">
+            <span className="text-[#716d8d] text-base mb-2">
               About
             </span>
           </Link>
           <Link href="/cart">
-            <span className="text-[#716d8d] text-base font-normal font-['Arial'] mb-2">
+            <span className="text-[#716d8d] text-base mb-2">
               Cart
             </span>
           </Link>
           <Link href="/products">
-            <span className="text-[#716d8d] text-base font-normal font-['Arial'] mb-2">
+            <span className="text-[#716d8d] text-base mb-2">
               Products
             </span>
           </Link>

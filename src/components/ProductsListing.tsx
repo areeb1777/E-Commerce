@@ -22,17 +22,17 @@ const ProductListing: React.FC = () => {
             <div className="w-full h-auto flex justify-center">
               <Image className="w-full h-auto" src={product.image} alt={product.name} width={305} height={375} />
             </div>
-            <div className="text-[#2a254b] text-xl font-normal font-['Arial'] leading-7">
+            <div className="text-[#2a254b] text-xl   leading-7">
               {product.name}
             </div>
-            <div className="text-[#2a254b] text-lg font-normal font-['Arial'] leading-[27px]">
+            <div className="text-[#2a254b] text-lg   leading-[27px]">
               {product.price}
             </div>
           </div>
         ))}
       </div>
       <div className="flex justify-center mt-10">
-        <div className="px-8 py-4 bg-[#f9f9f9] border text-[#2a254b] text-base font-normal font-['Arial'] leading-normal cursor-pointer">
+        <div className="px-8 py-4 bg-[#f9f9f9] border text-[#2a254b] text-base   leading-normal cursor-pointer">
           View collection
         </div>
       </div>

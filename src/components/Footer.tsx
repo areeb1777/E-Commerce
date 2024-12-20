@@ -22,46 +22,46 @@ const Footer: React.FC = () => {
         <div className="flex flex-col w-full h-auto bg-[#2a254b] px-4">
           <div className="flex justify-between">
             <div className="flex flex-col gap-3">
-              <div className="text-white text-base font-normal font-[Arial]">Menu</div>
-              <div className="text-white text-sm font-normal font-[Arial]">New arrivals</div>
-              <div className="text-white text-sm font-normal font-[Arial]">Best sellers</div>
-              <div className="text-white text-sm font-normal font-[Arial]">Recently viewed</div>
-              <div className="text-white text-sm font-normal font-[Arial]">Popular this week</div>
-              <div className="text-white text-sm font-normal font-[Arial]">All products</div>
+              <div className="text-white text-base  ">Menu</div>
+              <div className="text-white text-sm  ">New arrivals</div>
+              <div className="text-white text-sm  ">Best sellers</div>
+              <div className="text-white text-sm  ">Recently viewed</div>
+              <div className="text-white text-sm  ">Popular this week</div>
+              <div className="text-white text-sm  ">All products</div>
             </div>
             <div className="flex flex-col gap-3">
-              <div className="text-white text-base font-normal font-[Arial]">Categories</div>
-              <div className="text-white text-sm font-normal font-[Arial]">Crockery</div>
-              <div className="text-white text-sm font-normal font-[Arial]">Furniture</div>
-              <div className="text-white text-sm font-normal font-[Arial]">Homeware</div>
-              <div className="text-white text-sm font-normal font-[Arial]">Plant pots</div>
-              <div className="text-white text-sm font-normal font-[Arial]">Chairs</div>
-              <div className="text-white text-sm font-normal font-[Arial]">Crockery</div>
+              <div className="text-white text-base  ">Categories</div>
+              <div className="text-white text-sm  ">Crockery</div>
+              <div className="text-white text-sm  ">Furniture</div>
+              <div className="text-white text-sm  ">Homeware</div>
+              <div className="text-white text-sm  ">Plant pots</div>
+              <div className="text-white text-sm  ">Chairs</div>
+              <div className="text-white text-sm  ">Crockery</div>
             </div>
           </div>
           <div className="flex flex-col mt-10 gap-3">
-            <div className="text-white text-base font-normal font-[Arial]">Our company</div>
-            <div className="text-white text-sm font-normal font-[Arial]">About us</div>
-            <div className="text-white text-sm font-normal font-[Arial]">Vacancies</div>
-            <div className="text-white text-sm font-normal font-[Arial]">Contact us</div>
-            <div className="text-white text-sm font-normal font-[Arial]">Privacy</div>
-            <div className="text-white text-sm font-normal font-[Arial]">Returns policy</div>
+            <div className="text-white text-base  ">Our company</div>
+            <div className="text-white text-sm  ">About us</div>
+            <div className="text-white text-sm  ">Vacancies</div>
+            <div className="text-white text-sm  ">Contact us</div>
+            <div className="text-white text-sm  ">Privacy</div>
+            <div className="text-white text-sm  ">Returns policy</div>
           </div>
           <div className="flex flex-col mt-10 gap-3">
-            <div className="text-white text-base font-normal font-[Arial]">Join our mailing list</div>
+            <div className="text-white text-base  ">Join our mailing list</div>
             <div className="flex w-full mt-2">
               <input
                 type="email"
-                className="h-14 pl-8 pr-4 py-[17px] bg-white/20 text-white text-base font-normal font-[Arial] flex-grow"
+                className="h-14 pl-8 pr-4 py-[17px] bg-white/20 text-white text-base   flex-grow"
                 placeholder="your@email.com"
               />
               <div className="px-1 py-3 bg-white border justify-center items-center flex cursor-pointer">
-                <div className="text-[#2a254b] text-base font-normal font-[Arial] leading-normal">Sign up</div>
+                <div className="text-[#2a254b] text-base   leading-normal">Sign up</div>
               </div>
             </div>
           </div>
           <div className="w-full border-t border-[#4e4c92] mt-10 pt-4 text-center">
-            <div className="text-white text-sm font-normal font-[Arial]">
+            <div className="text-white text-sm  ">
               Copyright 2022 Avion LTD
             </div>
           </div>
@@ -71,80 +71,80 @@ const Footer: React.FC = () => {
       {/* Desktop View */}
       <div className="hidden md:flex max-w-6xl mx-auto flex-col md:flex-row items-start gap-8">
         <div className="flex-1 flex-col justify-start items-start gap-3 cursor-pointer">
-          <div className="text-white text-base font-normal font-[Arial]">
+          <div className="text-white text-base  ">
             Menu
           </div>
-          <div className="text-white text-sm font-normal font-[Arial]">
+          <div className="text-white text-sm  ">
             New arrivals
           </div>
-          <div className="text-white text-sm font-normal font-[Arial]">
+          <div className="text-white text-sm  ">
             Best sellers
           </div>
-          <div className="text-white text-sm font-normal font-[Arial]">
+          <div className="text-white text-sm  ">
             Recently viewed
           </div>
-          <div className="text-white text-sm font-normal font-[Arial]">
+          <div className="text-white text-sm  ">
             Popular this week
           </div>
-          <div className="text-white text-sm font-normal font-[Arial]">
+          <div className="text-white text-sm  ">
             All products
           </div>
         </div>
         <div className="flex-1 flex-col justify-start items-start gap-3">
-          <div className="text-white text-base font-normal font-[Arial]">
+          <div className="text-white text-base  ">
             Categories
           </div>
-          <div className="text-white text-sm font-normal font-[Arial]">
+          <div className="text-white text-sm  ">
             Crockery
           </div>
-          <div className="text-white text-sm font-normal font-[Arial]">
+          <div className="text-white text-sm  ">
             Furniture
           </div>
-          <div className="text-white text-sm font-normal font-[Arial]">
+          <div className="text-white text-sm  ">
             Homeware
           </div>
-          <div className="text-white text-sm font-normal font-[Arial]">
+          <div className="text-white text-sm  ">
             Plant pots
           </div>
-          <div className="text-white text-sm font-normal font-[Arial]">
+          <div className="text-white text-sm  ">
             Chairs
           </div>
-          <div className="text-white text-sm font-normal font-[Arial]">
+          <div className="text-white text-sm  ">
             Crockery
           </div>
         </div>
         <div className="flex-1 flex-col justify-start items-start gap-3">
-          <div className="text-white text-base font-normal font-[Arial]">
+          <div className="text-white text-base  ">
             Our company
           </div>
-          <div className="text-white text-sm font-normal font-[Arial]">
+          <div className="text-white text-sm  ">
             About us
           </div>
-          <div className="text-white text-sm font-normal font-[Arial]">
+          <div className="text-white text-sm  ">
             Vacancies
           </div>
-          <div className="text-white text-sm font-normal font-[Arial]">
+          <div className="text-white text-sm  ">
             Contact us
           </div>
-          <div className="text-white text-sm font-normal font-[Arial]">
+          <div className="text-white text-sm  ">
             Privacy
           </div>
-          <div className="text-white text-sm font-normal font-[Arial]">
+          <div className="text-white text-sm  ">
             Returns policy
           </div>
         </div>
         <div className="flex-1 flex-col justify-center items-start gap-3">
-          <div className="text-white text-base font-normal font-[Arial]">
+          <div className="text-white text-base  ">
             Join our mailing list
           </div>
           <div className="flex w-full">
             <input
               type="email"
-              className="h-14 pl-8 pr-4 py-[17px] bg-white/20 text-white text-base font-normal font-[Arial] flex-grow"
+              className="h-14 pl-8 pr-4 py-[17px] bg-white/20 text-white text-base   flex-grow"
               placeholder="your@email.com"
             />
             <div className="px-4 py-4 bg-white border justify-center items-center gap-2.5 flex cursor-pointer">
-              <div className="text-[#2a254b] text-base font-normal font-[Arial] leading-normal w-16">
+              <div className="text-[#2a254b] text-base   leading-normal w-16">
                 Sign up
               </div>
             </div>
@@ -152,7 +152,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <div className="hidden md:flex justify-between items-center w-full border-t border-[#4e4c92] pt-4 mt-16">
-        <div className="text-white text-sm font-normal font-[Arial]">
+        <div className="text-white text-sm  ">
           Copyright 2022 Avion LTD
         </div>
         <div className="flex gap-6">

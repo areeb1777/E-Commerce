@@ -7,10 +7,10 @@ const HeroSection: React.FC = () => {
       {/* Desktop View */}
       <div className="hidden md:flex relative bg-[#2a254b] flex-row justify-between items-center md:h-[704px]">
         <div className="relative z-10 w-1/2 px-20 py-20 flex flex-col justify-center">
-          <div className="w-full max-w-[500px] text-white text-[32px] font-normal leading-[44.8px] font-['Arial'] mb-10">
+          <div className="w-full max-w-[500px] text-white text-[32px]   leading-[44.8px]  mb-10">
             The furniture brand for the future, with timeless designs
           </div>
-          <div className="text-white text-lg font-normal leading-[27px] font-['Arial'] mb-10">
+          <div className="text-white text-lg   leading-[27px]  mb-10">
             A new era in eco friendly furniture with Avelon, the French luxury
             retail brand
             <br />
@@ -20,7 +20,7 @@ const HeroSection: React.FC = () => {
             using modern web technologies.
           </div>
           <div className="w-auto px-8 py-4 bg-[#f9f9f9]/20 justify-center items-center inline-flex cursor-pointer">
-            <div className="text-white text-base font-normal leading-normal font-['Arial']">
+            <div className="text-white text-base   leading-normal ">
               View collection
             </div>
           </div>
@@ -37,11 +37,11 @@ const HeroSection: React.FC = () => {
 
       {/* Mobile View */}
       <div className="md:hidden w-full max-w-[390px] h-auto bg-[#2a254b] px-6 pt-10 pb-6 flex flex-col justify-end items-start gap-20">
-        <div className="w-full max-w-[342px] text-white text-[32px] font-normal leading-[44.8px] font-['Clash Display']">
+        <div className="w-full max-w-[342px] text-white text-[32px]   leading-[44.8px] font-['Clash Display']">
           The furniture brand for the future, with timeless designs
         </div>
         <div className="flex flex-col justify-start items-start gap-8">
-          <div className="w-full max-w-[342px] text-white text-lg font-normal leading-[27px] font-['Arial']">
+          <div className="w-full max-w-[342px] text-white text-lg   leading-[27px] ">
             A new era in eco friendly furniture with Avelon, the French luxury
             retail brand
             <br />
@@ -51,7 +51,7 @@ const HeroSection: React.FC = () => {
             using modern web technologies.
           </div>
           <div className="w-full max-w-[342px] px-8 py-4 bg-[#f9f9f9]/20 justify-center items-center inline-flex cursor-pointer">
-            <div className="text-white text-base font-normal leading-normal font-['Arial']">
+            <div className="text-white text-base   leading-normal ">
               View collection
             </div>
           </div>
