@@ -7,7 +7,7 @@ const Cover: React.FC = () => {
     <div className="w-full h-auto relative py-10 md:py-20">
       {/* Desktop View */}
       <div className="hidden md:block">
-        <div className="absolute left-[314px] top-[146px] text-center text-white text-[80px] font-bold leading-[80px]">
+        <div className="absolute left-[314px] top-[146px] text-center text-black text-[80px] font-bold leading-[80px]">
           ecommerce
           <br />
           user interface kit
@@ -71,7 +71,7 @@ const Cover: React.FC = () => {
         <div className="text-center text-[#8f93ff] text-[20px]  leading-tight font-['Dancing Script'] mb-4">
           JUST UX
         </div>
-        <div className="text-center text-white text-[30px] font-bold leading-tight mb-4">
+        <div className="text-center text-black text-[30px] font-bold leading-tight mb-4">
           ecommerce
           <br />
           user interface kit
