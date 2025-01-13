@@ -54,7 +54,7 @@ const Cover: React.FC = () => {
               className="relative object-contain"
               alt="Product"
               width={209.27}
-              height={257.31}
+              height={257.31]
               priority={true}
             />
           </div>
@@ -95,7 +95,7 @@ const Cover: React.FC = () => {
             <div className="text-white text-lg leading-[27px]">£95</div>
           </div>
         </div>
-        <div className="absolute left-[570px] top-[780px] md:left-[570px] md:top-[780px] mb-10">
+        <div className="absolute left-[570px] bottom-[10px] md:left-[570px] md:bottom-[10px] mb-10">
           <Link href="/home">
             <button className="animate-button bg-[#8f93ff] text-white py-4 px-8 text-xl rounded-lg hover:bg-[#7077d5] transition-all duration-300">
               Enter Site
@@ -108,7 +108,7 @@ const Cover: React.FC = () => {
         <div className="text-center text-[#8f93ff] text-[20px] leading-tight font-['Dancing Script'] mb-4">
           JUST UX
         </div>
-        <div className="text-center text-[30px] font-bold leading-tight mb-4 theme-dependent-text">
+        <div className="text-center text-white text-[30px] font-bold leading-tight mb-4 theme-dependent-text">
           ecommerce
           <br />
           user interface kit
