@@ -54,7 +54,7 @@ const Cover: React.FC = () => {
               className="relative object-contain"
               alt="Product"
               width={209.27}
-              height={257.31]
+              height={257.31}
               priority={true}
             />
           </div>
